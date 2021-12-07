@@ -1,0 +1,27 @@
+body {
+    display: block;
+    margin: 0px;
+}
+
+li{
+    
+}
+.centrado{
+    text-align-last: center;
+}
+footer{
+
+}
+
+.burger-menu{
+    align-items: center;
+    border-radius: 3px;
+}
+footer .fas{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
