@@ -45,6 +45,17 @@ footer{
     align-items: center;
     border-radius: 3px;
 }
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    width: 40px;
+    padding: 18px 10px 0px 10px;
+}
 footer .fas{
     font-size: 2em;
     margin-bottom: 10px;
