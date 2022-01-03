@@ -8,10 +8,11 @@ app.listen(3000, () => console.log('Running mercado liebre'));
 app.get('/', function(req, res){
     res.sendFile(path.resolve('./views/home.html'))
 });
-/*
-app.get('/babbage', function(req, res){
-    res.sendFile(path.resolve('./views/babbage.html'))
+
+app.get('/registrar', function(req, res){
+    res.sendFile(path.resolve('./views/register.html'))
 });
+/*
 app.get('/berners-lee', function(req, res){
     res.sendFile(path.resolve('./views/berners-lee.html'))
 });

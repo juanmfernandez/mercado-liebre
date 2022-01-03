@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+
+body {
+    display: block;
+    margin: 0px;
+    background-color: darkgrey;
+}
+
+li{
+    list-style: none;
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+article{
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+main{
+    margin: 1rem;
+} 
+/*
+.circle{
+    border: 1px solid #c0eb75;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 12px;
+    padding-top: 12px;
+}*/
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+.fa-truck, .discount{
+    color : #c0eb75;
+}
+.detalle{
+    border: 1px solid #ebebeb;
+    padding: 15px;
+}
+.centrado{
+    text-align-last: center;
+}
+footer{
+
+}
+
+.burger-menu{
+    align-items: center;
+    border-radius: 3px;
+}
+.precio-descuento{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.discount{ 
+    flex-grow: 0.7;
+}
+.precio{ 
+    flex-grow: 0.3 ;
+}
+
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    width: 40px;
+    padding: 18px 10px 0px 10px;
+}
+footer .fas{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+/* 
+    Navegación en tablets (ancho mínimo 361 px)
+    Navegación en desktop (ancho mínimo 769 px)
+*/
+
+@media (min-width: 361px) {
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .descripcion{
+        display: none;
+    }
+
+    .site-login{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .descripcion{
+        display:contents;
+    }
+
+    .site-login{
+        display: contents;
+    }
+    .burger-menu{
+        display: none;
+    }
+
+}
