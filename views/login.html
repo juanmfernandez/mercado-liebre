@@ -38,32 +38,10 @@
             </div>
         </header>
         <div class="register">
-            <form action="register" method="post">
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-                <input type="text" name="usuario" id="usuario" placeholder="usuario@">
-                <label for="fechaNacimiento">Fecha de Nacimiento </label>
-                <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha de Nacimiento">
-                <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
-                <label for="">Perfil del usuario</label>
-                <label class="container">
-                    <input type="radio" name="perfil" id="comprar" value="comprar"> Comprar
-                </label>
-                <label class="container">
-                    <input type="radio"  name="perfil" id="vender" value="vender"> Vender
-                </label>
-
-                <label for="intereses" class="container">Intereses
-                    <input type="checkbox" name="intereses" id="Electro" value="Electro"> Electro
-                    <input type="checkbox" name="intereses" id="Moda" value="Moda"> Moda
-                    <input type="checkbox" name="intereses" id="Hogar" value="Hogar"> Hogar
-                    <input type="checkbox" name="intereses" id="Juguetería" value="Juguetería"> Juguetería
-                    <input type="checkbox" name="intereses" id="Vida sana" value="Vida sana"> Vida sana
-                </label>
-                <input type="file" name="foto" id="perfil" accept=".jpg, .png" placeholder="Foto de perfil">
+            <form action="login" method="post">
+                <input type="text" name="usuario" id="usuario" placeholder="usuario@">                
                 <input type="password" name="contrasena" id="contrasena" placeholder="Contraseña">
-                <input type="password" name="repetirContrasena" id="repetirContrasena" placeholder="Repetir contraseña">
-                <button type="reset">Borrar</button>
-                <button class="submit" type="submit">Enviar</button>
+                <button class="submit" type="submit">Ingresar</button>
             </form>
         </div>
     

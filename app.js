@@ -8,12 +8,17 @@ app.listen(process.env.PORT || 3000, function(){
     console.log('Servidor corriendo en el puerto 3000 Mercado Liebre');
 })
 /*m-liebre-juan-fernandez*/
+
 app.get('/', function(req, res){
     res.sendFile(path.resolve('./views/home.html'))
 });
 
-app.get('/registrar', function(req, res){
+app.get('/register', function(req, res){
     res.sendFile(path.resolve('./views/register.html'))
+});
+
+app.get('/login', function(req, res){
+    res.sendFile(path.resolve('./views/login.html'))
 });
 /*
 app.get('/berners-lee', function(req, res){
